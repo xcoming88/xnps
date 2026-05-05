@@ -1,0 +1,7 @@
+# 忽略第三方库的语言统计
+web/html/lib/** linguist-vendored
+web/server/node_modules/** linguist-vendored
+node_modules/** linguist-vendored
+
+# 强制将 .js 文件识别为主要语言
+*.js linguist-detectable=true

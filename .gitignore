@@ -1,0 +1,25 @@
+# --- 核心依赖与环境 ---
+node_modules/
+.agents
+*.log
+
+# --- 同步与工具临时文件 ---
+sync.ffs_db
+*.ffs_gui
+.DS_Store
+Thumbs.db
+
+# --- 敏感配置文件 (已创建 example 模板) ---
+web/server/apps/xnps/config.json
+xnpc/config.json
+web/db/config.json
+
+# --- 私有设计文档 ---
+web/db/需求--数据库设计.md
+web/需求--程序设计.md
+xnps_xnpc_需求文档.md
+
+
+# --- 其他 ---
+public/
+min.js/

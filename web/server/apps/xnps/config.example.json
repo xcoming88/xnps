@@ -1,0 +1,11 @@
+{
+    "port": 6001,
+    "npc_port": 6002,
+    "db": {
+        "host": "YOUR_DB_HOST",
+        "port": 5432,
+        "database": "xnps",
+        "user": "YOUR_DB_USER",
+        "password": "YOUR_DB_PASSWORD"
+    }
+}
